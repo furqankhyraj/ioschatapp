@@ -68,7 +68,7 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
         } else {
             cell.avatarImageView.backgroundColor = UIColor.flatPink()
             cell.messageBackground.backgroundColor = UIColor.flatGray()
-        }
+        } 
         
         return cell
     }
